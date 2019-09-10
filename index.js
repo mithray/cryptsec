@@ -6,4 +6,4 @@ let padString = require('./lib/padString.js')
 
 module.exports = { encrypt, decrypt, hashTest, getHash, padString }
 
-hashTest()
+//hashTest()
