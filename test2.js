@@ -1,3 +1,4 @@
+/*
 const secretbox = require('tweetnacl').secretbox
 const randomBytes = require('tweetnacl').randomBytes
 const decodeUTF8 = require('tweetnacl-util').decodeUTF8
@@ -55,3 +56,4 @@ const sharedB = box.before(pairA.publicKey, pairB.secretKey)
 const encrypted = encrypt(sharedA, obj)
 const decrypted = decrypt(sharedB, encrypted)
 console.log(obj, encrypted, decrypted)
+*/

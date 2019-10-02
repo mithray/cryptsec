@@ -1,8 +1,7 @@
-const encrypt = require('./lib/encrypt.js')
-const decrypt = require('./lib/decrypt.js')
-const hashTest = require('./lib/hashTest.js')
-const getHash = require('./lib/getHash.js')
-const padString = require('./lib/padString.js')
-
-module.exports = { encrypt, decrypt, hashTest, getHash, padString }
-//hashTest()
+module.exports = {
+    encrypt: require('./lib/encrypt.js'),
+    decrypt: require('./lib/decrypt.js'),
+    hashTest: require('./lib/hashTest.js'),
+    getHash: require('./lib/getHash.js'),
+    padString: require('./lib/padString.js')
+}

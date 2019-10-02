@@ -1,3 +1,4 @@
+/*
 const nacl = require('tweetnacl')
 nacl.util = require('tweetnacl-util')
 const getHash = require('./index.js').getHash
@@ -8,9 +9,7 @@ const encodeUTF8 = nacl.util.encodeUTF8
 const encodeBase64 = nacl.util.encodeBase64
 const decodeBase64 = nacl.util.decodeBase64
 const log = require('../logger')
-/*
 const log = Log()
-*/
 function newNonce() {
     return randomBytes(box.nonceLength)
 }
@@ -97,3 +96,4 @@ let plaintext = 'message hereu'
 encryptDecrypt(plaintext).then(res => {
     console.log(res)
 })
+*/
